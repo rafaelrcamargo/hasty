@@ -1,5 +1,5 @@
 ---
-theme: "dark"
+theme: "light"
 align: "center"
 ---
 
@@ -11,11 +11,21 @@ align: "center"
 
 And the first **description**
 
+- A list
+- With some items
+  - And _subitems_
+- **Yay**
+
 ---
 
 ## Second Slide
 
 And the second [description](https://google.com)
+
+1. A list
+2. With some items
+   1. And _subitems_
+3. **Yay**
 
 ---
 
@@ -23,10 +33,9 @@ And the second [description](https://google.com)
 
 With a code block:
 
-<br/>
-
-```js
+```javascript
 const hello = "world"
+console.log(hello)
 ```
 
 ---
