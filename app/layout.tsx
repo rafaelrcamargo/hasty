@@ -1,18 +1,11 @@
-import './globals.css'
+import { ReactNode } from "react"
+import "../styles/globals.css"
 
-export default function RootLayout({
-  children,
-}: {
-  children: React.ReactNode
-}) {
+export default function RootLayout({ children }: { children: ReactNode }) {
   return (
     <html lang="en">
-      {/*
-        <head /> will contain the components returned by the nearest parent
-        head.tsx. Find out more at https://beta.nextjs.org/docs/api-reference/file-conventions/head
-      */}
       <head />
-      <body>{children}</body>
+      <body className="text-stone-800 bg-stone-100">{children}</body>
     </html>
   )
 }
